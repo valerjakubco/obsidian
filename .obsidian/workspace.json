@@ -1,0 +1,184 @@
+{
+  "main": {
+    "id": "21cb92851fd821ab",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb97f90f382d571a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb2a7e7cf24f6f4b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "APCS/OSPF.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "56303349f90319bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "APCS/OSPF.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "569b2343dc6c4a36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "APCS/WANs.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7c1d9d72c0062cb1",
+    "type": "split",
+    "children": [
+      {
+        "id": "5cec405c8c2b1ee5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f6c9f3c84c2e2b4b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "024309035aa9033f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1d9724b8cd8f6182",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "f35fd7260d0ecd34",
+    "type": "split",
+    "children": [
+      {
+        "id": "46857f907e5a3cb3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "651c2e1526803674",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "APCS/WANs.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "eaaafb02e9ca5659",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "APCS/WANs.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "21029f5fd00923d7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2c368e8db91aa713",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "APCS/WANs.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "569b2343dc6c4a36",
+  "lastOpenFiles": [
+    "APCS/OSPF.md",
+    "APCS/LINK STATE.md",
+    "APCS/OSPF process.md",
+    "APCS/Network security concepts.md",
+    "APCS/NAT.md",
+    "Untitled 1.md",
+    "Untitled.md"
+  ]
+}

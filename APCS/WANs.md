@@ -1,0 +1,17 @@
+- **Wide area network**
+- Typy WAN:
+	- **Leased Line**
+		- Dedikované fyzické pripojenie
+		- Typicky prepája 2 siete
+		- Nie je zdieľané, ani pripojené k Internetu
+		- Seriálové pripojenie - *PPP* alebo *HDLC*
+		- Viacero štandardov podporujúcich rôzne rýchlosti, rozdielné štandardy dostupné v rozdielnych krajinách
+		- Kvôli vyšším cenám, nižším rýchlostiam Ethernet WAN technológie sa stavajú viac populárne
+	- **MPLS**
+		- *Multi Protocol Label Switching*
+		- Podobne ako *Internet* MPLS siete zdieľajú infraštruktúru
+		- *Label switching* v názve znamená, že je možné vytvoriť **labels**, ktoré sú vlastne *VPN*, aby sa rozdelila traffic
+		- Dôležité pojmy:
+			- **CE Router** = *Custom edge router*
+			- **PE Router** = *Provider edge router*
+			- **P Router** = *Provider core router*
