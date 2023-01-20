@@ -9,9 +9,32 @@
 		- Kvôli vyšším cenám, nižším rýchlostiam Ethernet WAN technológie sa stavajú viac populárne
 	- **MPLS**
 		- *Multi Protocol Label Switching*
-		- Podobne ako *Internet* MPLS siete zdieľajú infraštruktúru
-		- *Label switching* v názve znamená, že je možné vytvoriť **labels**, ktoré sú vlastne *VPN*, aby sa rozdelila traffic
-		- Dôležité pojmy:
-			- **CE Router** = *Custom edge router*
-			- **PE Router** = *Provider edge router*
-			- **P Router** = *Provider core router*
+			- Podobne ako *Internet* MPLS siete zdieľajú infraštruktúru
+			- *Label switching* v názve znamená, že je možné vytvoriť **labels**, ktoré sú vlastne *VPN*, aby sa rozdelila traffic
+			- Dôležité pojmy:
+				- **CE Router** = *Custom edge router*
+				- **PE Router** = *Provider edge router*
+				- **P Router** = *Provider core router*
+	- **DSL**
+		- *Digital Subscription Line* 
+			- Využíva už existujúcu telefónnu linku
+			- Modem - (modulator-demodulator), konvertuje dáta na format vhodný pre telefónne linky
+		- *Cable internet*
+			- Využíva existujúce kabelové pripojenie pre TV
+			- Potrebný modem
+	- **Internet VPN**
+		- *Site-to-site VPN, IPsec*
+			- Medzi dvoma zariadeniami na prepojenie dvoch sieti cez internet
+			- Vytvorený *tunnel*
+			- Originálny packet je enkryptovaný predtým než je enkapsulovaný do nového headeru
+			- Router dostane packet, enkryptuje ho, zabali novym headerom a posle cez tunel 
+			- *Tunnel* je vytvorený len medzi dvoma zariadeniami, napr. 2 routre
+			- *Limitacie*
+				- IPsec podporuje iba *unicast*, kvôli tomu protokoly ako OSPF nemôžu byť použité v *tunneli*, pretože zakladajú na multicast
+				- Môže to byť vyriešené s *GRE over IPsec*
+		- *Remote access VPN, TLS*
+			- Dovoľujú koncovým zariadenia pripojiť sa na "firemné" zariadenia bezpečne cez internet
+			- Väčšinou používajú *TLS  - Transport Layer Security*
+				- To isté sa využíva pri HTTPS,  predtým sa nazývalo SSL
+			- VPN client software je nainštalovaný na koncovom zariadení
+			- Tie sa potom pripoja na router/firewall, ktorý sa tvári ako TLS server
