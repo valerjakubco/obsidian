@@ -8,55 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fb2a7e7cf24f6f4b",
+            "id": "0ed50f11fcb1eebc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "APCS/OSPF.md",
+                "file": "APCS/SNMP.md",
                 "mode": "source",
                 "source": true
-              }
-            }
-          },
-          {
-            "id": "56303349f90319bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "APCS/OSPF.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "569b2343dc6c4a36",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "APCS/WANs.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "5f2a63090a3a27be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "APCS/CDP & LLDP.md",
-                "mode": "source",
-                "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "APCS/CDP & LLDP.md",
+                "file": "APCS/SNMP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "APCS/CDP & LLDP.md",
+                "file": "APCS/SNMP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "APCS/CDP & LLDP.md"
+                "file": "APCS/SNMP.md"
               }
             }
           }
@@ -183,16 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5f2a63090a3a27be",
+  "active": "f6c9f3c84c2e2b4b",
   "lastOpenFiles": [
-    "APCS/OSPF.md",
-    "APCS/Network security concepts.md",
-    "APCS/NAT.md",
-    "APCS/WANs.md",
     "APCS/CDP & LLDP.md",
+    "APCS/OSPF.md",
+    "APCS/WANs.md",
+    "APCS/NTP.md",
+    "APCS/NAT.md",
     "APCS/LINK STATE.md",
-    "APCS/OSPF process.md",
-    "Untitled 1.md",
-    "Untitled.md"
+    "APCS/DNS.md",
+    "APCS/DHCP.md",
+    "APCS/Network security concepts.md",
+    "APCS/OSPF process.md"
   ]
 }
