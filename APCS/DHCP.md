@@ -1,0 +1,16 @@
+- Používa sa aby zariadenia automaticky/dynamicky dostali rôzne aspekty ich sieťovej konfigurácie, napr. IP adresy, masky siete, defaultne gaty, DNS servery atd.
+- Vo veľkých sieťach je zvyčajne DNS server Linux/Windows server, v domácich je to router
+- **DHCP request**
+	- *DHCP DISCOVER*
+		- Zariadenie požiada o IP adresu atď
+	- *DHCP OFFER*
+		- DHCP server navrhne IP adresu
+	- *DHCP REQUEST*
+		- Zariadenie chce použiť navhrnutú adresu
+	- *DHCP ACK*
+		- ok súhlas
+	- *DORA* =
+		- Discover(broadcast), 
+		- Offer(broadcast alebo unicast), 
+		- Request(broadcast), 
+		- Ack(broadcast alebo unicast)

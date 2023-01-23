@@ -1,0 +1,28 @@
+- Zdieľajú a získavajú informácie o susedných zariadeniach
+- **CDP**
+	- Cisco discovery protokol
+	- Cisco proprietárny protokol
+	- Je defaultne povolený na cisco zariadeniach
+	- CDP správy su periodicky posielané na multicast MAC adresu 0100.0CCC.CCCC
+	- Keď zariadenie dostane CDP správu, spracuje ju a zahodí, **neposiela** ju ďalej
+	- Iba *directly connected* zariadenia sa môžu stať *neighbors*
+	- Defaultne CDP správy su poslané každých *60 sekúnd*
+	- Keď zariadenie dostane správu, uloží informácie do CDP neighbor tabuľky
+	- Defaultne CDP uchováva zariadenie *180 sekúnd*, ak dovtedy nedostane správu od druhého zariadenia, vymaže suseda z tabuľky
+	- Používa sa CDPv2
+	- **Prikazy**
+		- *show cdp*
+		- *show cdp traffic*
+		- *show cdp interface*
+		- *show cdp neighbors*
+- **LLDP**
+	- Link Layer Discovery Protocol
+	- industriálny protokol IEEE
+	- Defaultne vypnuté na cisco zariadeniach
+	- Na zariadení môže bežať LLDP a CDP súčasne
+	- LLDP správy sa posielajú multicastovo na adresu 0180.C200.000E
+	- Zariadenia správy spracujú a zahodia, rovnako ako pri CDP
+	- Defaultne sa posielajú každých **30 sekúnd**
+	- Holdtime je **120 sekúnd**
+	- **Commandy**
+		![[lldp.png]]

@@ -1,0 +1,33 @@
+- séria príkazov, ktoré sú používané na filtrovanie packetov, založené na informáciách dostupných v packet headri
+- Defaultne router nemá nastavené žiadne ACL
+- Keď je ACL aplikované na rozhranie, router vykoná ďalší tak na rozhodnutie, či packet pôjde ďalej
+- ACL používa sekvenčný zoznam povolení a zákazov, ACE (access control entries)
+- Limitovanie trafficu na zvýšenie performance
+- Základný level bezpečnosti
+- **Packet filtering**
+	- Môže sa nachádzať na Layer3 alebo Layer4
+	- **Standard ACL**
+		- Iba Layer3 pomocou zdrojových IPv4 adries
+	- **Extended ACL**
+		- Layer3
+		- Môžu okrem Layer3 aj Layer4 pomocou TCP, UDP portov
+	- **Numbered ACL**
+		- 1-99 alebo 1300-1999 - standard ACL
+		- 100-199 lebo 2000-2699 - extended ACL
+	- **Named ACL
+		- Preferovaná metóda
+		- Vieme vytvoriť názov ACL 
+	
+- **ACL Operation**
+	-  Definujú súbor pravidiel, ktorý pridáva kontrolu pre packety ktoré:
+		- vstupujú do routera
+		- prechádzajú cez router
+		- vychádzajú z routera
+		- **ACL nerobí nič s packetmi, ktoré pochádzajú priamo z routera
+	- 1. router extrahuje IP adresu z headera
+	- 2. Router začína prehľadávať z vrchu ACL a porovnáva zdrojovú IP adresu s ACE v sekvenčnom poradí
+	- 3. Keď nájde zhodu, router rozhodne či to je deny alebo permit a ďalej neprehľadáva ACL
+	- 4. Ak sa IP adresa nezhoduje s ničím v ACL, packet je zahodený, lebo je tam automatické deny, ktoré je na konci a neukazuje sa v konfigurácií
+- **host** nahrada za masku 0.0.0.0
+- **any** nahrada za masku 255.255.255.255
+- **remark** command, koment k ACL

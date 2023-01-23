@@ -37,26 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "APCS/WANs.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "9e8aec3493aabf6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "APCS/DNS.md",
+                "file": "APCS/SNMP.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -122,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "APCS/DNS.md",
+                "file": "APCS/SNMP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "APCS/DNS.md",
+                "file": "APCS/SNMP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "APCS/DNS.md"
+                "file": "APCS/SNMP.md"
               }
             }
           }
@@ -183,17 +171,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9e8aec3493aabf6d",
+  "active": "e3482596ee15d50d",
   "lastOpenFiles": [
+    "APCS/WANs.md",
+    "APCS/OSPF.md",
+    "APCS/DNS.md",
     "APCS/LINK STATE.md",
     "APCS/SNMP.md",
-    "APCS/OSPF.md",
-    "APCS/WANs.md",
     "APCS/NAT.md",
     "APCS/ACL.md",
     "APCS/Network security concepts.md",
     "APCS/NTP.md",
-    "APCS/DNS.md",
     "APCS/DHCP.md"
   ]
 }

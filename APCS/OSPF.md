@@ -1,4 +1,4 @@
-- Open Shortest Path First
+  - Open Shortest Path First
 - Využíva Dijkstrov algoritmus
 - Existujú 3 verzie
 	- OSPFv1 - viac sa už nepoužíva

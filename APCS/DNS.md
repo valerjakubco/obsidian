@@ -1,0 +1,1 @@
+- Ked zadame URL, pripoji sa to na DNS server a ten podla tabulky vyhodnoti aku to ma IP, na ktoru sa nasledne pripoji
