@@ -5,7 +5,7 @@
 		- Typicky prepája 2 siete
 		- Nie je zdieľané, ani pripojené k Internetu
 		- Seriálové pripojenie - *PPP* alebo *HDLC*
-		- Viacero štandardov podporujúcich rôzne rýchlosti, rozdielné štandardy dostupné v rozdielnych krajinách
+		- Viacero štandardov podporujúcich rôzne rýchlosti, rozdielne štandardy dostupné v rozdielnych krajinách
 		- Kvôli vyšším cenám, nižším rýchlostiam Ethernet WAN technológie sa stavajú viac populárne
 	- **MPLS**
 		- *Multi Protocol Label Switching*

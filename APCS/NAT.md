@@ -10,3 +10,27 @@
 	- **Gloabl address** - Hocijaká adresa, ktorá sa nachádza mimo siete
 
 # STATIC NAT
+- 1 k 1 mapovanie
+- Užitočné ak chceme pristupovať k zariadeniu z vonku
+- Static NAT table
+- Je potrebné mať toľko public adries, koľko je zariadení, ktoré chceme prekladať
+
+# DYNAMIC NAT
+- Využíva *pool* public adries a priradzuje ich - prvý príde, prvý berie 
+- Je potrebné toľko verejných adries, koľko zariadení pristupuje naraz k internetu
+
+# PAT
+- **port address translation**
+- Tiež známe ako *overload*
+- Mapuje viacero privátnych IP adries k jednej alebo zopár verejným adresám
+- Keď NAT router dostane packet od klienta, použije zdrojový port aby unikátne identifikovalo špecifické NAT preloženie 
+
+![[Pasted image 20230123181056.png]]
+
+
+- Niektoré packety neobsahujú Layer 4 port, napr ICMPv4 správy
+- Každý z týchto protokolov je inak handlovany pomocou PAT
+- Napr ICMPv4 query správy, echo requesty a echo odpovede majú Query ID
+
+# Výhody nevýhody NAT
+-   

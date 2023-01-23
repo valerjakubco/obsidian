@@ -18,8 +18,45 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "2406aadd20731e73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "APCS/Syslog.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "e3482596ee15d50d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "APCS/WANs.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "9e8aec3493aabf6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "APCS/WANs.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -85,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "APCS/SNMP.md",
+                "file": "APCS/WANs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "APCS/SNMP.md",
+                "file": "APCS/WANs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "APCS/SNMP.md"
+                "file": "APCS/WANs.md"
               }
             }
           }
@@ -146,17 +183,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f6c9f3c84c2e2b4b",
+  "active": "9e8aec3493aabf6d",
   "lastOpenFiles": [
-    "APCS/CDP & LLDP.md",
-    "APCS/OSPF.md",
+    "APCS/SNMP.md",
     "APCS/WANs.md",
-    "APCS/NTP.md",
     "APCS/NAT.md",
+    "APCS/ACL.md",
+    "APCS/Network security concepts.md",
+    "APCS/OSPF.md",
+    "APCS/NTP.md",
     "APCS/LINK STATE.md",
     "APCS/DNS.md",
-    "APCS/DHCP.md",
-    "APCS/Network security concepts.md",
-    "APCS/OSPF process.md"
+    "APCS/DHCP.md"
   ]
 }
