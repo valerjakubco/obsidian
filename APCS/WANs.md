@@ -1,4 +1,18 @@
 - **Wide area network**
+- **Cirtuit-switch Options**
+	- **PSTN** - Public Service Telephone Network
+		- medeny kabel existujucej telefonnej linky
+		- Prenáša dáta po existujúcej telefónnej linke pomocou *voiceband* modemu
+		- Typická charakteristika je, že dokáže prenášať signal menej než 56kbps
+	- **ISDN** - Integrated Services Digital Network
+		- Zrýchľuje kapacitu PSTN na cca 45Kbps - 2.048 Mbps
+- **Packet-Switch Options**
+	- **Frame Relay**
+		-  Jednoduchý layer 2 technológia na prepojenie enterprise LANs
+	- **Asynchronous Transfer Mode (ATM)**
+		- Môže prenášať hlas, video a dáta cez privátne alebo verejné siete
+		- Je založená na cell-base architektúre radšej než frame-based. ATM cells sú fixnej dĺžky 53bytov
+	- **Boli nahradené rýchlejšími Metro Ethernet a Interned-based riešeniami**
 - Typy WAN:
 	- **Leased Line**
 		- Dedikované fyzické pripojenie
